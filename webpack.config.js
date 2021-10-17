@@ -61,7 +61,7 @@ module.exports = webpackEnv => {
             poll: true
         },
         devServer: {
-            port: 3000,
+            port: 8000,
             host: 'localhost',
             open: true,
             client: {
@@ -75,3 +75,5 @@ module.exports = webpackEnv => {
         },
     }
 }
+// "start": "webpack serve --open --env DEV=true --hot --progress --history-api-fallback --port 4000",
+// "build": "webpack --mode production --watch"
